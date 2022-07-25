@@ -1,6 +1,6 @@
 ---
 - name: "check all connection"
-  hosts: all
+  hosts: webservers, nfs, db, lb
 
   tasks:
   - name: Test connectivity
