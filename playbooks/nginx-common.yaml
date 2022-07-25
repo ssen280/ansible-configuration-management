@@ -27,5 +27,5 @@
         
     - name: httpd installation
       apt:
-        name: httpd
+        name: apache2
         state: latest
