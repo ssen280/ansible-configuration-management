@@ -1,3 +1,3 @@
 # ansible-configuration-management
-ansible configuration files
+ansible configuration folders and files
 
