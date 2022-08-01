@@ -8,8 +8,8 @@
     - always
 
 
-- name: Database assigment
-  import_playbook: ../static-assignments/db.yml
+#- name: Database assigment
+ # import_playbook: ../static-assignments/db.yml
 
 - name: Loadbalancers assignment
   import_playbook: ../static-assignments/lb.yml
