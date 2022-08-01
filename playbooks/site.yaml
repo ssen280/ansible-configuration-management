@@ -8,8 +8,8 @@
     - always
 
 
-- name: webserver
-  import_playbook: ../static-assignments/webservers.yml
+- name: Database assigment
+  import_playbook: ../static-assignments/db.yml
 
 - name: Loadbalancers assignment
   import_playbook: ../static-assignments/lb.yml
