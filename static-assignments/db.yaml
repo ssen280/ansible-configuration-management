@@ -2,4 +2,5 @@
 - hosts: db
   roles:
      - mysql
-  #become: true
+  become: true
+  remote_src: yes
