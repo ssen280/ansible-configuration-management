@@ -1,0 +1,5 @@
+---
+# vars file for loadbalancer
+
+nginx_timezone: Europe/Brussels
+server_hostname: web.foobar.com
